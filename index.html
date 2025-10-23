@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Mahasiswa Teknik Informatika - Pengembangan Web & Desain">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Header -->
+    <header role="banner">
+        <div class="container">
+            <nav role="navigation" aria-label="Main navigation">
+                <div class="logo">Portfo<span>lio</span></div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">Tentang Saya</a></li>
+                    <li><a href="#skills" class="nav-link">Keahlian</a></li>
+                    <li><a href="#news" class="nav-link">Berita</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Halo, Saya Adha Adnan Febryan</h1>
+                <p>Mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan desain. Saya senang menciptakan solusi digital yang menarik dan fungsional.</p>
+                <a href="#news" class="btn">Lihat Berita Terbaru</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Tentang Saya</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img slide-left">
+                    <img src="ryan.jpg" alt="Ryan Adnan - Mahasiswa Teknik Informatika" class="profile-img">
+                </div>
+                <div class="about-text slide-right">
+                    <h3>Mahasiswa Teknik Informatika</h3>
+                    <p>Saya adalah mahasiswa semester 3 Program Studi Teknik Informatika. Saya memiliki minat yang besar dalam pengembangan web, khususnya di bidang front-end development dan user experience design.</p>
+                    <p>Selama perkuliahan, saya telah mempelajari berbagai teknologi web seperti HTML, CSS, JavaScript, dan framework modern seperti React dan Vue.js. Saya juga memiliki pengalaman dalam pembuatan aplikasi web yang responsif, interaktif, dan user-friendly.</p>
+                    <p>Selain itu, saya aktif dalam organisasi kampus dan telah mengikuti berbagai kompetisi programming serta hackathon. Saya selalu bersemangat untuk belajar teknologi baru dan menerapkannya dalam proyek-proyek nyata yang memberikan dampak positif.</p>
+                    <a href="#contact" class="btn">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Keahlian Saya</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item stagger-item">
+                    <h3>Front-End Development</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Vue.js, Responsive Design</p>
+                </div>
+                <div class="skill-item stagger-item">
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, Wireframing, Prototyping, User Research</p>
+                </div>
+                <div class="skill-item stagger-item">
+                    <h3>Back-End Development</h3>
+                    <p>Node.js, Express, PHP, MySQL, MongoDB, RESTful API</p>
+                </div>
+                <div class="skill-item stagger-item">
+                    <h3>Tools & Others</h3>
+                    <p>Git, GitHub, VS Code, Postman, Agile Methodology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News/Articles Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Berita & Artikel</h2>
+            </div>
+            <div class="news-grid">
+                <!-- News Item 1 -->
+                <article class="news-item stagger-item">
+                    <figure class="news-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600" alt="Meta AI PHK" class="news-img">
+                        <time class="news-date" datetime="2025-10-23">23 Okt 2025</time>
+                    </figure>
+                    <div class="news-content">
+                        <span class="news-category">Bisnis & Teknologi</span>
+                        <h3>600 Karyawan Unit AI Meta Kena PHK, Sinyal Perubahan Arah Strategi Besar</h3>
+                        <p>Meta Platforms PHK 600 karyawan di divisi AI untuk memperkuat strategi baru. Langkah ini bertujuan meningkatkan efisiensi dan memperkuat Superintelligence Labs...</p>
+                        <a href="https://www.liputan6.com/bisnis/read/6192796/600-karyawan-unit-ai-meta-kena-phk-sinyal-perubahan-arah-strategi-besar" target="_blank" rel="noopener noreferrer" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <!-- News Item 2 -->
+                <article class="news-item stagger-item">
+                    <figure class="news-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600" alt="Cristiano Ronaldo" class="news-img">
+                        <time class="news-date" datetime="2025-10-21">21 Okt 2025</time>
+                    </figure>
+                    <div class="news-content">
+                        <span class="news-category">Olahraga</span>
+                        <h3>Harta Tembus Rp 2.326 Triliun, Cristiano Ronaldo Resmi Jadi Pemain Bola Terkaya</h3>
+                        <p>Cristiano Ronaldo resmi menjadi pemain sepak bola terkaya sepanjang sejarah dengan total kekayaan mencapai Rp 2.326 triliun. Pencapaian luar biasa sang megabintang...</p>
+                        <a href="https://www.liputan6.com/bisnis/read/6190820/harta-tembus-rp-2326-triliun-cristiano-ronaldo-resmi-jadi-pemain-bola-terkaya-sepanjang-sejarah" target="_blank" rel="noopener noreferrer" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <!-- News Item 3 -->
+                <article class="news-item stagger-item">
+                    <figure class="news-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600" alt="Mohamed Salah" class="news-img">
+                        <time class="news-date" datetime="2025-10-23">23 Okt 2025</time>
+                    </figure>
+                    <div class="news-content">
+                        <span class="news-category">Sepak Bola</span>
+                        <h3>Sisi Egois Mohamed Salah di Laga Melawan Eintracht Frankfurt</h3>
+                        <p>Mohamed Salah dikritik karena memilih eksekusi sendiri dan gagal, dibanding memberikan umpan ke Florian Wirtz yang posisinya lebih baik saat melawan Eintracht Frankfurt...</p>
+                        <a href="https://www.liputan6.com/bola/read/6193340/sisi-egois-mohamed-salah-di-laga-melawan-eintracht-frankfurt-pilih-eksekusi-dan-gagal-dibanding-umpan-ke-florian-wirtz" target="_blank" rel="noopener noreferrer" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Hubungi Saya</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info slide-left">
+                    <h3>Informasi Kontak</h3>
+                    <p style="margin-bottom: 25px;">Silakan hubungi saya melalui form di samping atau melalui informasi kontak yang tersedia di bawah ini.</p>
+                    <address>
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:ryan73147@gmail.com">ryan73147@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Telepon:</strong>
+                            <a href="tel:+6282328649895">+62 823 2864 9895</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Alamat:</strong>
+                            <span>Tegal City, Ds. Bogares Kidul</span>
+                        </div>
+                    </address>
+                </div>
+                <div class="contact-form slide-right">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Masukkan nama lengkap Anda" required>
+                            <span class="form-error" id="nameError">Nama harus diisi</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="contoh@email.com" required>
+                            <span class="form-error" id="emailError">Email tidak valid</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subjek pesan Anda" required>
+                            <span class="form-error" id="subjectError">Subjek harus diisi</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                            <span class="form-error" id="messageError">Pesan harus diisi</span>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ryan Adnan - Portfolio. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/r.y.a.n_adnan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram - Ryan Adnan">Instagram</a>
+                    <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer" aria-label="GitHub - Ryan Adnan">GitHub</a>
+                    <a href="https://wa.me/6282328649895" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp - Ryan Adnan">WhatsApp</a>
+                    <a href="mailto:ryan73147@gmail.com" aria-label="Email - Ryan Adnan">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
